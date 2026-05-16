@@ -1,0 +1,51 @@
+:root,
+[data-theme="light"] {
+  --bg-primary: rgba(255, 255, 255, 0.75);
+  --bg-canvas: rgba(248, 249, 250, 0.55);
+  --bg-node: rgba(255, 255, 255, 0.72);
+  --bg-detail: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #6c757d;
+  --border-color: rgba(0, 0, 0, 0.12);
+  --connection-color: #adb5bd;
+  --glass-bg: rgba(233, 236, 239, 0.5);
+  --shadow-color: rgba(0, 0, 0, 0.06);
+  --indicator-bg: rgba(225, 225, 230, 0.85);
+  --indicator-arrow: #6c757d;
+  --focus-ring: #4263eb;
+  --glass-blur: blur(20px);
+}
+
+[data-theme="dark"] {
+  --bg-primary: rgba(0, 0, 0, 0.78);
+  --bg-canvas: rgba(8, 8, 8, 0.55);
+  --bg-node: rgba(18, 18, 18, 0.72);
+  --bg-detail: #111111;
+  --text-primary: #e9ecef;
+  --text-secondary: #999999;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --connection-color: #555555;
+  --glass-bg: rgba(30, 30, 30, 0.45);
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --indicator-bg: rgba(45, 45, 50, 0.85);
+  --indicator-arrow: #888888;
+  --focus-ring: #5c7cfa;
+  --glass-blur: blur(24px);
+}
+
+[data-theme="gray"] {
+  --bg-primary: rgba(60, 60, 60, 0.78);
+  --bg-canvas: rgba(50, 50, 50, 0.55);
+  --bg-node: rgba(70, 70, 70, 0.72);
+  --bg-detail: #3a3a3a;
+  --text-primary: #f0f0f0;
+  --text-secondary: #cccccc;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --connection-color: #888888;
+  --glass-bg: rgba(80, 80, 80, 0.45);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --indicator-bg: rgba(95, 95, 100, 0.85);
+  --indicator-arrow: #cccccc;
+  --focus-ring: #bac8ff;
+  --glass-blur: blur(22px);
+}
